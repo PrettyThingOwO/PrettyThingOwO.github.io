@@ -3905,3 +3905,39 @@ pre .coffeescript .title {
   --primary-weak: #697be2;
   --primary-weak-50: rgba(105, 123, 226, 0.5);
 }
+:root {
+  --primary: #ec801a;
+  --primary-70: rgba(236, 128, 26, 0.7);
+  --primary-50: rgba(236, 128, 26, 0.5);
+  --primary-30: rgba(236, 128, 26, 0.3);
+  --primary-weak: #e2aa69;
+  --primary-weak-50: rgba(226, 170, 105, 0.5);
+}
+:root.dark {
+  --primary: #5a5df0;
+  --primary-70: rgba(90, 93, 240, 0.7);
+  --primary-50: rgba(90, 93, 240, 0.5);
+  --primary-30: rgba(90, 93, 240, 0.3);
+  --primary-weak: #697be2;
+  --primary-weak-50: rgba(105, 123, 226, 0.5);
+}
+.trm-header-icon-lang {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+}
+.trm-header-icon-lang a {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+.trm-header-icon-lang a:hover {
+  color: var(--primary);
+}
+.trm-header-icon-lang .iconfont {
+  font-size: 18px;
+}
